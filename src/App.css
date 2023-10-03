@@ -103,3 +103,31 @@ h1 {
 .delete-icon {
   cursor: pointer;
 }
+
+@media all and (max-width: 500px) {
+  .TodoWrapper {
+    width: 70%;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  .todo-input {
+    width: 100%;
+  }
+  .body {
+    background: rgb(103, 6, 121);
+    background: linear-gradient(
+      0deg,
+      rgba(104, 6, 121, 0.637) 26%,
+      rgba(57, 8, 255, 0.842) 100%
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
